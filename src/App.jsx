@@ -332,38 +332,294 @@ const DEMO_SUBJECTS = [
       { day: "Jueves", slot: "09:00 AM–11:00 AM" }
     ]
   },
-  // Física Universitaria
   {
-    id: 39,
-    name: "Física Universitaria",
-    group: "MAF3904D",
-    professor: "LOPEZ LOPEZ ELKIN",
-    room: "J-LFISI1",
-    schedule: [
-      { day: "Lunes", slot: "09:00 AM–11:00 AM" },
-      { day: "Miércoles", slot: "09:00 AM–11:00 AM" }
-    ]
-  },
-  {
-    id: 40,
-    name: "Física Universitaria",
-    group: "MAF3904E",
-    professor: "Por Asignar",
-    room: "J-LFISI2",
+    id: 29,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968E3",
+    professor: "AGUILERA PEREZ GERARDO ANTONIO",
+    room: "A-304",
     schedule: [
       { day: "Martes", slot: "09:00 AM–11:00 AM" },
       { day: "Jueves", slot: "09:00 AM–11:00 AM" }
     ]
   },
   {
-    id: 41,
-    name: "Física Universitaria",
-    group: "MAF3904F",
-    professor: "LOPEZ LOPEZ ELKIN",
-    room: "J-LFISI1",
+    id: 30,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968F",
+    professor: "VAZQUEZ PEREZ ABEL",
+    room: "C-210",
     schedule: [
       { day: "Lunes", slot: "11:00 AM–01:00 PM" },
       { day: "Miércoles", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 31,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968F2",
+    professor: "GOMEZ SALAZAR DAVID",
+    room: "D-303",
+    schedule: [
+      { day: "Lunes", slot: "11:00 AM–01:00 PM" },
+      { day: "Miércoles", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 32,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968H",
+    professor: "IBARRA OCHOA ANAROSA",
+    room: "C-208",
+    schedule: [
+      { day: "Lunes", slot: "01:00 PM–03:00 PM" },
+      { day: "Jueves", slot: "01:00 PM–03:00 PM" }
+    ]
+  },
+  {
+    id: 33,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968H2",
+    professor: "ZAPATA ROMANO JUAN JAVIER",
+    room: "B-112",
+    schedule: [
+      { day: "Lunes", slot: "01:00 PM–03:00 PM" },
+      { day: "Jueves", slot: "01:00 PM–03:00 PM" }
+    ]
+  },
+  {
+    id: 34,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968H3",
+    professor: "DELGADO AGUIÑAGA JORGE ALEJANDRO",
+    room: "D-210",
+    schedule: [
+      { day: "Lunes", slot: "01:00 PM–03:00 PM" },
+      { day: "Jueves", slot: "01:00 PM–03:00 PM" }
+    ]
+  },
+  {
+    id: 35,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968I",
+    professor: "GARCIA SANCHEZ FERNANDO",
+    room: "D-109",
+    schedule: [
+      { day: "Martes", slot: "01:00 PM–03:00 PM" },
+      { day: "Viernes", slot: "01:00 PM–03:00 PM" }
+    ]
+  },
+  {
+    id: 36,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968K",
+    professor: "GONZALEZ FIGUEROA ARMANDO",
+    room: "C-211",
+    schedule: [
+      { day: "Lunes", slot: "04:00 PM–06:00 PM" },
+      { day: "Jueves", slot: "04:00 PM–06:00 PM" }
+    ]
+  },
+  {
+    id: 37,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968L",
+    professor: "AGUILERA PEREZ GERARDO ANTONIO",
+    room: "D-103",
+    schedule: [
+      { day: "Martes", slot: "04:00 PM–06:00 PM" },
+      { day: "Viernes", slot: "04:00 PM–06:00 PM" }
+    ]
+  },
+  {
+    id: 38,
+    name: "Ecuaciones Diferenciales",
+    group: "MAF3968L2",
+    professor: "BAEZA ORNELAS RAUL",
+    room: "C-104",
+    schedule: [
+      { day: "Martes", slot: "04:00 PM–06:00 PM" },
+      { day: "Viernes", slot: "04:00 PM–06:00 PM" }
+    ]
+  },
+  // Física Universitaria (Actualización)
+  
+  {
+    id: 39,
+    name: "Física Universitaria",
+    group: "MAF3904M",
+    professor: "LOPEZ LOPEZ ELKIN",
+    room: "J-LFISI3",
+    schedule: [
+      { day: "Miércoles", slot: "04:00 PM–06:00 PM" }
+    ]
+  },
+  {
+    id: 40,
+    name: "Física Universitaria",
+    group: "MAF2251D",
+    professor: "Por Asignar",
+    room: "J-LFISI4",
+    schedule: [
+      { day: "Lunes", slot: "09:00 AM–11:00 AM" },
+      { day: "Miércoles", slot: "09:00 AM–11:00 AM" },
+      { day: "Jueves", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 41,
+    name: "Física Universitaria",
+    group: "MAF2251F",
+    professor: "Por Asignar",
+    room: "J-LFISI1",
+    schedule: [
+      { day: "Lunes", slot: "11:00 AM–01:00 PM" },
+      { day: "Miércoles", slot: "11:00 AM–01:00 PM" },
+      { day: "Viernes", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 42,
+    name: "Física Universitaria",
+    group: "MAF3904B",
+    professor: "ZEPEDA ALATORRE COSME",
+    room: "J-LFISI2",
+    schedule: [
+      { day: "Martes", slot: "07:00 AM–09:00 AM" }
+    ]
+  },
+  {
+    id: 43,
+    name: "Física Universitaria",
+    group: "MAF3904C",
+    professor: "SHINDO DAISUKE",
+    room: "J-LFISI3",
+    schedule: [
+      { day: "Miércoles", slot: "07:00 AM–09:00 AM" }
+    ]
+  },
+  {
+    id: 44,
+    name: "Física Universitaria",
+    group: "MAF3904C2",
+    professor: "LOPEZ LOPEZ ELKIN",
+    room: "J-LFISI2",
+    schedule: [
+      { day: "Viernes", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 45,
+    name: "Física Universitaria",
+    group: "MAF3904D",
+    professor: "ZEPEDA ALATORRE COSME",
+    room: "A-208",
+    schedule: [
+      { day: "Lunes", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 46,
+    name: "Física Universitaria",
+    group: "MAF3904D2",
+    professor: "SHINDO DAISUKE",
+    room: "J-LFISI3",
+    schedule: [
+      { day: "Miércoles", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 47,
+    name: "Física Universitaria",
+    group: "MAF3904E",
+    professor: "SHINDO DAISUKE",
+    room: "J-LFISI1",
+    schedule: [
+      { day: "Jueves", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 48,
+    name: "Física Universitaria",
+    group: "MAF3904E2",
+    professor: "BARAJAS BARRAZA RAMON ENRIQUE",
+    room: "J-LFISI2",
+    schedule: [
+      { day: "Martes", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 49,
+    name: "Física Universitaria",
+    group: "MAF3904G",
+    professor: "ALONZO FLORES MIGUEL ANGEL",
+    room: "J-LFISI2",
+    schedule: [
+      { day: "Martes", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 50,
+    name: "Física Universitaria",
+    group: "MAF3904G2",
+    professor: "SHINDO DAISUKE",
+    room: "J-LFISI1",
+    schedule: [
+      { day: "Jueves", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 51,
+    name: "Física Universitaria",
+    group: "MAF3904H",
+    professor: "LOPEZ LOPEZ ELKIN",
+    room: "C-215",
+    schedule: [
+      { day: "Lunes", slot: "01:00 PM–03:00 PM" }
+    ]
+  },
+  {
+    id: 52,
+    name: "Física Universitaria",
+    group: "MAF3904J",
+    professor: "LOPEZ LOPEZ ELKIN",
+    room: "J-LFISI2",
+    schedule: [
+      { day: "Viernes", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  // Administración de Sistemas
+  {
+    id: 56,
+    name: "Administración de Sistemas",
+    group: "ESI2628A",
+    professor: "DURAN POLANCO LILIANA",
+    room: "T-210",
+    schedule: [
+      { day: "Lunes", slot: "07:00 AM–09:00 AM" },
+      { day: "Jueves", slot: "07:00 AM–09:00 AM" }
+    ]
+  },
+  {
+    id: 57,
+    name: "Administración de Sistemas",
+    group: "ESI2628E",
+    professor: "GONZALEZ DIAZ LUIS DANIEL",
+    room: "T-210",
+    schedule: [
+      { day: "Martes", slot: "09:00 AM–11:00 AM" },
+      { day: "Jueves", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 58,
+    name: "Administración de Sistemas",
+    group: "ESI2628N",
+    professor: "VARGAS ESTRADA MARIA DE LOS ANGELES",
+    room: "T-210",
+    schedule: [
+      { day: "Lunes", slot: "06:00 PM–08:00 PM" },
+      { day: "Miércoles", slot: "06:00 PM–08:00 PM" }
     ]
   }
 ];
