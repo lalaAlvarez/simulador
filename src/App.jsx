@@ -621,6 +621,84 @@ const DEMO_SUBJECTS = [
       { day: "Lunes", slot: "06:00 PM–08:00 PM" },
       { day: "Miércoles", slot: "06:00 PM–08:00 PM" }
     ]
+  },
+  // Análisis y Diseño de Procesos
+  {
+    id: 59,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116B",
+    professor: "DE LA GARZA MUSI ALEJANDRO",
+    room: "T-102",
+    schedule: [
+      { day: "Martes", slot: "07:00 AM–09:00 AM" },
+      { day: "Viernes", slot: "07:00 AM–09:00 AM" }
+    ]
+  },
+  {
+    id: 60,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116C",
+    professor: "Por Asignar",
+    room: "T-204",
+    schedule: [
+      { day: "Miércoles", slot: "07:00 AM–09:00 AM" },
+      { day: "Viernes", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 61,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116E",
+    professor: "SALAS MEJIA RICARDO",
+    room: "T-106",
+    schedule: [
+      { day: "Martes", slot: "09:00 AM–11:00 AM" },
+      { day: "Jueves", slot: "09:00 AM–11:00 AM" }
+    ]
+  },
+  {
+    id: 62,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116F",
+    professor: "SALAS MEJIA RICARDO",
+    room: "T-102",
+    schedule: [
+      { day: "Lunes", slot: "11:00 AM–01:00 PM" },
+      { day: "Miércoles", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 63,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116G",
+    professor: "PEREZ GARCIA ANA LAURA",
+    room: "T-112",
+    schedule: [
+      { day: "Martes", slot: "11:00 AM–01:00 PM" },
+      { day: "Jueves", slot: "11:00 AM–01:00 PM" }
+    ]
+  },
+  {
+    id: 64,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116N",
+    professor: "TREVIÑO LEON LUIS EDUARDO",
+    room: "T-114",
+    schedule: [
+      { day: "Lunes", slot: "06:00 PM–08:00 PM" },
+      { day: "Miércoles", slot: "06:00 PM–08:00 PM" }
+    ]
+  },
+  {
+    id: 65,
+    name: "Análisis y Diseño de Procesos",
+    group: "ESI116P",
+    professor: "CALZADA LOPEZ JOSE JUAN",
+    room: "T-114",
+    schedule: [
+      { day: "Lunes", slot: "08:00 PM–10:00 PM" },
+      { day: "Miércoles", slot: "08:00 PM–10:00 PM" }
+    ]
   }
 ];
 
